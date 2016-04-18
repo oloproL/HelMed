@@ -106,7 +106,7 @@
 				%>
 				<script>
 				document.getElementById("values").selectedIndex = <%= session.getAttribute("valueIndex") %>
-				document.getElementById("diseases").style.height="180px"
+				document.getElementById("diseases").style.height="200px"
 				</script>
 				<form name="diseasesForm" id="diseasesForm" method="POST" action="">
 				<input type="hidden" name="diseaseIndex" id="diseaseIndex">
