@@ -98,6 +98,13 @@ public class Hive {
 			return result;
 		  }
 
+	  /**
+	   * Method for obtaining all the possible diseases that can be diagnosed from a symptom
+	   * @param symptom Symptom
+	   * @param value Symptom value
+	   * @return Disease diagnosed
+	   * @throws SQLException
+	   */
 	  public ArrayList<String[]> getDisease(String symptom, String value) throws SQLException{
 			 
 			ArrayList<String[]> result = new ArrayList<String[]>();
